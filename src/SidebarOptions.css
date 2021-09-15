@@ -1,0 +1,8 @@
+.sidebarOptions > img {
+  object-fit: contain;
+  height: 30px;
+  border-radius: 999px;
+  background-color: #8f73e9;
+  margin-top: 10px;
+  cursor: pointer;
+}

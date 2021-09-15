@@ -1,0 +1,14 @@
+.sidebar {
+  background-color: #1f1f23;
+  color: white;
+  width: max-content;
+  height: 92vh;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.sidebar > .MuiSvgIcon-root {
+  margin-top: 10px;
+  color: gray !important;
+  cursor: pointer;
+}
