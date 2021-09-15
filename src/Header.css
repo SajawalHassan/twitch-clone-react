@@ -7,7 +7,7 @@
   color: white;
 }
 
-/* Header Left */
+/* Header left */
 
 .header__left {
   display: flex;
@@ -37,7 +37,7 @@
   border-radius: 5px;
 }
 
-/* Header Middle */
+/* Header middle */
 
 .header__middle {
   display: flex;
@@ -70,7 +70,7 @@
   background-color: gray;
 }
 
-/* Header Right */
+/* Header right */
 
 .header__right {
   display: flex;
