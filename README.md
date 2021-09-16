@@ -73,7 +73,8 @@ This is an example of how to list things you need to use the software and how to
 ### Installation
 
 1. Clone the repo
-   ```git clone https://github.com/your_username_/Project-Name.git
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
    ```
 2. Install NPM packages
    ```sh
