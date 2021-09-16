@@ -51,9 +51,6 @@ This project is built with **react, firebase and material-ui** which are some gr
 This Project Uses **react**. Before getting started make sure that you have the Prerequisites. Good luck on your journey.
 
 
-<!-- GETTING STARTED -->
-## Getting Started
-
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
