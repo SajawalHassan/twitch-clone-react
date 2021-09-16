@@ -65,8 +65,9 @@ This is an example of how to list things you need to use the software and how to
   npm i
   ```
  * firebase
-   ```npm install firebase
-      npm install -g firebase-tools
+   ```sh
+   npm install firebase
+   npm install -g firebase-tools
    ```
 
 ### Installation
@@ -75,7 +76,8 @@ This is an example of how to list things you need to use the software and how to
    ```git clone https://github.com/your_username_/Project-Name.git
    ```
 2. Install NPM packages
-   ```npm install
+   ```sh
+   npm install
    ```
 
 <!-- CONTRIBUTING -->
