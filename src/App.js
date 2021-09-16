@@ -1,12 +1,16 @@
 import "./App.css";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
+import Videos from "./Videos";
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <Sidebar />
+      <div className="app__body">
+        <Sidebar />
+        <Videos />
+      </div>
     </div>
   );
 }

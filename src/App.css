@@ -5,6 +5,10 @@
   overflow-x: hidden;
 }
 
+.app__body {
+  display: flex;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
 }

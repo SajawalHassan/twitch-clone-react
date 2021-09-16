@@ -1,0 +1,51 @@
+.videos {
+  flex: 0.95;
+  margin-top: 10px;
+  color: white;
+}
+
+.videos__mainVideo {
+  background-color: black;
+  height: 30vh;
+  width: 88vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.videos__mainVideo > .videos__mainVideoBottom,
+.videos__mainVideo > .videos__mainVideoTop {
+  color: white !important;
+}
+
+.videos__mainVideo > .videos__mainVideoTop > .MuiSvgIcon-root {
+  font-size: 110px !important;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.videos__mainVideo > .videos__mainVideoTop > .MuiSvgIcon-root:hover {
+  background-color: rgb(110, 110, 110);
+  border-radius: 5px;
+}
+
+.videos__mainVideo > .videos__mainVideoTop {
+  display: flex;
+  justify-content: center;
+}
+
+.videos__mainVideoBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 65px 0;
+}
+
+.videos__mainVideoBottom > div > .MuiSvgIcon-root {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.videos__mainVideoBottom > div > .MuiSvgIcon-root:hover {
+  background-color: rgb(110, 110, 110);
+  border-radius: 5px;
+}

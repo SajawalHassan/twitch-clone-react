@@ -10,11 +10,17 @@ function Sidebar() {
       <VideocamIcon />
 
       <SidebarOptions img="https://static-cdn.jtvnw.net/jtv_user_pictures/811dc7d4-1079-4ead-8b48-97f3ff4fa361-profile_image-70x70.png" />
+
       <SidebarOptions img="https://static-cdn.jtvnw.net/jtv_user_pictures/811dc7d4-1079-4ead-8b48-97f3ff4fa361-profile_image-70x70.png" />
+
       <SidebarOptions img="https://static-cdn.jtvnw.net/jtv_user_pictures/811dc7d4-1079-4ead-8b48-97f3ff4fa361-profile_image-70x70.png" />
+
       <SidebarOptions img="https://static-cdn.jtvnw.net/jtv_user_pictures/811dc7d4-1079-4ead-8b48-97f3ff4fa361-profile_image-70x70.png" />
+
       <SidebarOptions img="https://static-cdn.jtvnw.net/jtv_user_pictures/811dc7d4-1079-4ead-8b48-97f3ff4fa361-profile_image-70x70.png" />
+
       <SidebarOptions img="https://static-cdn.jtvnw.net/jtv_user_pictures/811dc7d4-1079-4ead-8b48-97f3ff4fa361-profile_image-70x70.png" />
+
       <SidebarOptions img="https://static-cdn.jtvnw.net/jtv_user_pictures/811dc7d4-1079-4ead-8b48-97f3ff4fa361-profile_image-70x70.png" />
     </div>
   );
