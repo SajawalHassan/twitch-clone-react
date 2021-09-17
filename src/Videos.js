@@ -164,6 +164,8 @@ function Videos() {
             title="Let's experiment"
             channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/ingameasylum-profile_image-afe8cee3a26c08e1-50x50.png"
             channel="ingameAsylum"
+            ifLive="LIVE"
+            viewers="2.2K viewers"
             categories="English"
           />
           <VideosCard
@@ -171,6 +173,8 @@ function Videos() {
             title="Let's experiment"
             channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/ingameasylum-profile_image-afe8cee3a26c08e1-50x50.png"
             channel="ingameAsylum"
+            ifLive="LIVE"
+            viewers="2.2K viewers"
             categories="English"
           />
           <VideosCard
@@ -178,6 +182,8 @@ function Videos() {
             title="Let's experiment"
             channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/ingameasylum-profile_image-afe8cee3a26c08e1-50x50.png"
             channel="ingameAsylum"
+            ifLive="LIVE"
+            viewers="2.2K viewers"
             categories="English"
           />
         </div>
@@ -196,6 +202,8 @@ function Videos() {
             title="LAIDBACK LUKE +..."
             channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/b0beaf3f-5ba9-4eff-85d6-0c7c3c1747fa-profile_image-50x50.png"
             channel="Insomniac"
+            ifLive="LIVE"
+            viewers="2.2K viewers"
             categories="English"
           />
           <VideosCard
@@ -203,6 +211,8 @@ function Videos() {
             title="LAIDBACK LUKE +..."
             channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/b0beaf3f-5ba9-4eff-85d6-0c7c3c1747fa-profile_image-50x50.png"
             channel="Insomniac"
+            ifLive="LIVE"
+            viewers="2.2K viewers"
             categories="English"
           />
           <VideosCard
@@ -210,6 +220,8 @@ function Videos() {
             title="LAIDBACK LUKE +..."
             channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/b0beaf3f-5ba9-4eff-85d6-0c7c3c1747fa-profile_image-50x50.png"
             channel="Insomniac"
+            ifLive="LIVE"
+            viewers="2.2K viewers"
             categories="English"
           />
         </div>
@@ -228,6 +240,8 @@ function Videos() {
             title="Hardcore Mode..."
             channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/9e3aba5c-353f-4419-ae89-19f85381d8ca-profile_image-50x50.png"
             channel="EI1xLive"
+            ifLive="LIVE"
+            viewers="2.2K viewers"
             categories="English"
           />
           <VideosCard
@@ -235,6 +249,8 @@ function Videos() {
             title="Hardcore Mode..."
             channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/9e3aba5c-353f-4419-ae89-19f85381d8ca-profile_image-50x50.png"
             channel="EI1xLive"
+            ifLive="LIVE"
+            viewers="2.2K viewers"
             categories="English"
           />
           <VideosCard
@@ -242,6 +258,8 @@ function Videos() {
             title="Hardcore Mode..."
             channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/9e3aba5c-353f-4419-ae89-19f85381d8ca-profile_image-50x50.png"
             channel="EI1xLive"
+            ifLive="LIVE"
+            viewers="2.2K viewers"
             categories="English"
           />
         </div>
