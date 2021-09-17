@@ -2,12 +2,20 @@
   flex: 0.95;
   margin-top: 10px;
   color: white;
+  height: calc(110vh - 100px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.border {
+  border: 1px solid rgb(59, 59, 59);
 }
 
 .videos__mainVideo {
   background-color: black;
   height: 30vh;
   width: 88vw;
+  max-width: 730px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -37,7 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 65px 0;
+  margin-top: 50px;
 }
 
 .videos__mainVideoBottom > div > .MuiSvgIcon-root {
@@ -48,4 +56,19 @@
 .videos__mainVideoBottom > div > .MuiSvgIcon-root:hover {
   background-color: rgb(110, 110, 110);
   border-radius: 5px;
+}
+
+.videos__card {
+  margin: 100px 0 30px 0;
+  text-align: center;
+}
+
+.videos__card > .videos__cardVideo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.videos__button {
+  margin-top: 30px;
 }

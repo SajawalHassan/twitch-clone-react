@@ -1,0 +1,83 @@
+.videosCard {
+  margin: 0 15px;
+}
+
+.videosCard__top {
+  position: relative;
+}
+
+.videosCard__top > img {
+  object-fit: contain;
+  height: 105px;
+  cursor: pointer;
+}
+
+.videosCard__top > img:hover {
+  box-shadow: 10px 10px 5px red;
+  transition: 200ms ease-in-out;
+}
+
+.videosCard__top > p {
+  position: absolute;
+  margin: -105px 5px;
+  padding: 2px 5px;
+  border-radius: 3px;
+  background-color: red;
+  cursor: pointer;
+}
+
+.videosCard__top > span {
+  position: absolute;
+  background-color: rgb(36, 36, 36);
+  margin: 85px -183px;
+  padding: 2px;
+  color: lightgray;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.videosCard__middle {
+  display: flex;
+  align-items: center;
+}
+
+.videosCard__middle > img {
+  object-fit: contain;
+  height: 35px;
+  width: max-content;
+  margin-top: 10px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.videosCard__middle > h5 {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.videosCard__bottom {
+  text-align: left;
+  margin-left: 45px;
+  margin-top: -17px;
+}
+
+.videosCard__bottom > p {
+  font-size: 14px;
+  margin-top: 3px;
+  color: rgb(160, 160, 160);
+}
+
+.videosCard__bottom > h5 {
+  width: max-content;
+  border-radius: 999px;
+  background-color: #3e3e40;
+  color: rgb(144, 144, 144);
+  margin-top: 10px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.videosCard__bottom > h5:hover {
+  background-color: #5b5b5f;
+}
