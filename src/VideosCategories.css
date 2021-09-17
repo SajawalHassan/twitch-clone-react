@@ -7,6 +7,11 @@
   height: 140px;
 }
 
+.videosCategories > img:hover {
+  box-shadow: 10px 10px 5px red;
+  transition: box-shadow 300ms;
+}
+
 .videosCategories > h5 {
   color: lightgray;
   font-size: 15px;
@@ -25,6 +30,8 @@
 
 .videosCategories > div > span {
   padding: 0 10px;
+  font-size: 14px;
+  color: lightgray;
   border-radius: 999px;
   background-color: #3e3e40;
 }

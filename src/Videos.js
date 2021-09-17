@@ -153,13 +153,102 @@ function Videos() {
         />
       </div>
 
-      <div className="video__recomended">
-        {/* Recommended Just Chatting channels (H3) */}
-        {/* *X SCROLLABLE* */}
-        {/* VideosRecommended */}
+      <div className="videos__card">
+        <h3>
+          Recommended <span>Just Chatting</span> channels
+        </h3>
+
+        <div className="videos__cardVideo">
+          <VideosCard
+            thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ingameasylum-440x248.jpg"
+            title="Let's experiment"
+            channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/ingameasylum-profile_image-afe8cee3a26c08e1-50x50.png"
+            channel="ingameAsylum"
+            categories="English"
+          />
+          <VideosCard
+            thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ingameasylum-440x248.jpg"
+            title="Let's experiment"
+            channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/ingameasylum-profile_image-afe8cee3a26c08e1-50x50.png"
+            channel="ingameAsylum"
+            categories="English"
+          />
+          <VideosCard
+            thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_ingameasylum-440x248.jpg"
+            title="Let's experiment"
+            channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/ingameasylum-profile_image-afe8cee3a26c08e1-50x50.png"
+            channel="ingameAsylum"
+            categories="English"
+          />
+        </div>
       </div>
+
+      <div className="border"></div>
+
+      <div className="videos__card">
+        <h3>
+          Recommended <span>Music</span> channels
+        </h3>
+
+        <div className="videos__cardVideo">
+          <VideosCard
+            thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_insomniac-440x248.jpg"
+            title="LAIDBACK LUKE +..."
+            channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/b0beaf3f-5ba9-4eff-85d6-0c7c3c1747fa-profile_image-50x50.png"
+            channel="Insomniac"
+            categories="English"
+          />
+          <VideosCard
+            thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_insomniac-440x248.jpg"
+            title="LAIDBACK LUKE +..."
+            channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/b0beaf3f-5ba9-4eff-85d6-0c7c3c1747fa-profile_image-50x50.png"
+            channel="Insomniac"
+            categories="English"
+          />
+          <VideosCard
+            thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_insomniac-440x248.jpg"
+            title="LAIDBACK LUKE +..."
+            channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/b0beaf3f-5ba9-4eff-85d6-0c7c3c1747fa-profile_image-50x50.png"
+            channel="Insomniac"
+            categories="English"
+          />
+        </div>
+      </div>
+
+      <div className="border"></div>
+
+      <div className="videos__card">
+        <h3>
+          Recommended <span>Minecraft</span> channels
+        </h3>
+
+        <div className="videos__cardVideo">
+          <VideosCard
+            thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_el1xlive-440x248.jpg"
+            title="Hardcore Mode..."
+            channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/9e3aba5c-353f-4419-ae89-19f85381d8ca-profile_image-50x50.png"
+            channel="EI1xLive"
+            categories="English"
+          />
+          <VideosCard
+            thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_el1xlive-440x248.jpg"
+            title="Hardcore Mode..."
+            channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/9e3aba5c-353f-4419-ae89-19f85381d8ca-profile_image-50x50.png"
+            channel="EI1xLive"
+            categories="English"
+          />
+          <VideosCard
+            thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_el1xlive-440x248.jpg"
+            title="Hardcore Mode..."
+            channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/9e3aba5c-353f-4419-ae89-19f85381d8ca-profile_image-50x50.png"
+            channel="EI1xLive"
+            categories="English"
+          />
+        </div>
+      </div>
+
+      <div className="border"></div>
     </div>
   );
 }
-
 export default Videos;

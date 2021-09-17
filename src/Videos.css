@@ -71,10 +71,14 @@
 .videos__card > h3 {
   margin-top: 50px;
 }
+.videos__card > h3 > span {
+  color: #a970d9;
+}
 
 .videos__card > .videos__cardVideo {
   display: flex;
   align-items: center;
+  margin: 20px 0;
 }
 
 .videos__button {
