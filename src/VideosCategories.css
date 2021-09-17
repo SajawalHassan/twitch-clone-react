@@ -1,0 +1,30 @@
+.videosCategories {
+  margin: 10px 7px;
+}
+
+.videosCategories > img {
+  object-fit: contain;
+  height: 140px;
+}
+
+.videosCategories > h5 {
+  color: lightgray;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.videosCategories > p {
+  font-size: 14px;
+  color: #909090;
+  margin-top: 5px;
+}
+
+.videosCategories > div {
+  margin-top: 7px;
+}
+
+.videosCategories > div > span {
+  padding: 0 10px;
+  border-radius: 999px;
+  background-color: #3e3e40;
+}

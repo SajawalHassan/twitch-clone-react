@@ -15,6 +15,7 @@
 
 .videosButton:hover {
   background-color: #a875fa;
+  transition: background-color 500ms;
 }
 
 .videosButton > img {

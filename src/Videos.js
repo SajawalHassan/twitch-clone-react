@@ -8,6 +8,7 @@ import MovieIcon from "@material-ui/icons/Movie";
 import FullscreenIcon from "@material-ui/icons/Fullscreen";
 import VideosCard from "./VideosCard";
 import VideosButton from "./VideosButton";
+import VideosCategories from "./VideosCategories";
 
 function Videos() {
   return (
@@ -33,8 +34,47 @@ function Videos() {
 
       <div className="videos__card">
         <h3>Live channels we think you'll like</h3>
-
         <div className="videos__cardVideo">
+          <VideosCard
+            thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_esl_csgo-440x248.jpg"
+            ifLive="LIVE"
+            viewers="2.6K viewers"
+            channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/1975b18f-fa7d-443f-b191-fba08f92f3a2-profile_image-50x50.jpeg"
+            title="Not sweaty at all!"
+            channel="ESL_CSGO"
+            game="Csgo"
+            categories="Esports"
+          />
+          <VideosCard
+            thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_esl_csgo-440x248.jpg"
+            ifLive="LIVE"
+            viewers="2.6K viewers"
+            channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/1975b18f-fa7d-443f-b191-fba08f92f3a2-profile_image-50x50.jpeg"
+            title="Not sweaty at all!"
+            channel="ESL_CSGO"
+            game="Csgo"
+            categories="Esports"
+          />
+          <VideosCard
+            thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_esl_csgo-440x248.jpg"
+            ifLive="LIVE"
+            viewers="2.6K viewers"
+            channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/1975b18f-fa7d-443f-b191-fba08f92f3a2-profile_image-50x50.jpeg"
+            title="Not sweaty at all!"
+            channel="ESL_CSGO"
+            game="Csgo"
+            categories="Esports"
+          />
+          <VideosCard
+            thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_esl_csgo-440x248.jpg"
+            ifLive="LIVE"
+            viewers="2.6K viewers"
+            channelImg="https://static-cdn.jtvnw.net/jtv_user_pictures/1975b18f-fa7d-443f-b191-fba08f92f3a2-profile_image-50x50.jpeg"
+            title="Not sweaty at all!"
+            channel="ESL_CSGO"
+            game="Csgo"
+            categories="Esports"
+          />
           <VideosCard
             thumbnail="https://static-cdn.jtvnw.net/previews-ttv/live_user_esl_csgo-440x248.jpg"
             ifLive="LIVE"
@@ -82,13 +122,35 @@ function Videos() {
         />
       </div>
 
+      <h3>
+        <span>Categories</span> we think you'll like
+      </h3>
       <div className="video__categories">
-        {/* Categories we think you'll like (H3) */}
         {/* *X SCROLLABLE* */}
-        {/* VideosCategories (PROP) (COMPONENT) */}
-        {/* VideosCategories (PROP) (COMPONENT) */}
-        {/* VideosCategories (PROP) (COMPONENT) */}
-        {/* VideosCategories (PROP) (COMPONENT) */}
+        <VideosCategories
+          img="https://static-cdn.jtvnw.net/ttv-boxart/Just%20Chatting-188x250.jpg"
+          title="Just Chatting"
+          viewers="155k viewers"
+          categories="IRL"
+        />
+        <VideosCategories
+          img="https://static-cdn.jtvnw.net/ttv-boxart/Music-188x250.jpg"
+          title="Music"
+          viewers="23.8K viewers"
+          categories="IRL"
+        />
+        <VideosCategories
+          img="https://static-cdn.jtvnw.net/ttv-boxart/Minecraft-188x250.jpg"
+          title="Minecraft"
+          viewers="13.1K viewers"
+          categories="Simulation"
+        />
+        <VideosCategories
+          img="https://static-cdn.jtvnw.net/ttv-boxart/Fortnite-188x250.jpg"
+          title="Fortnite"
+          viewers="32.6K viewers"
+          categories="Shooter"
+        />
       </div>
 
       <div className="video__recomended">
