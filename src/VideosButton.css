@@ -25,3 +25,10 @@
 .videosButton > h1 {
   margin-left: 10px;
 }
+
+@media (min-width: 800px) {
+  .videosButton {
+    width: 40vw;
+    margin: 30px 5px;
+  }
+}

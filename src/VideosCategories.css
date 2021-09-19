@@ -35,3 +35,33 @@
   border-radius: 999px;
   background-color: #3e3e40;
 }
+
+@media (min-width: 585px) {
+  .videosCategories > img {
+    height: 175px;
+  }
+}
+
+@media (min-width: 610px) {
+  .videosCategories > img {
+    height: 180px;
+  }
+}
+
+@media (min-width: 700px) {
+  .videosCategories > img {
+    height: 200px;
+  }
+}
+
+@media (min-width: 800px) {
+  .videosCategories > img {
+    height: 210px;
+  }
+}
+
+@media (min-width: 850px) {
+  .videosCategories > img {
+    height: 240px;
+  }
+}

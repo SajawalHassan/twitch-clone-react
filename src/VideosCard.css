@@ -9,6 +9,7 @@
 .videosCard__top > img {
   object-fit: contain;
   height: 105px;
+  max-height: 500px;
   cursor: pointer;
 }
 
@@ -19,7 +20,8 @@
 
 .videosCard__top > p {
   position: absolute;
-  margin: -105px 5px;
+  top: 3%;
+  left: 2%;
   padding: 2px 5px;
   border-radius: 3px;
   background-color: red;
@@ -28,8 +30,10 @@
 
 .videosCard__top > span {
   position: absolute;
+  bottom: 5%;
+  left: 3%;
   background-color: rgb(36, 36, 36);
-  margin: 85px -183px;
+  /* margin: 85px -183px; */
   padding: 2px;
   color: lightgray;
   font-size: 13px;
@@ -80,4 +84,10 @@
 
 .videosCard__bottom > h5:hover {
   background-color: #5b5b5f;
+}
+
+@media (min-width: 671px) {
+  .videosCard__top > img {
+    height: 149px;
+  }
 }

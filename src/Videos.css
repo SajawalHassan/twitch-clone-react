@@ -65,7 +65,7 @@
 }
 
 .videos__card::-webkit-scrollbar {
-  display: none;
+  height: 10px;
 }
 
 .videos__card > h3 {
@@ -93,7 +93,7 @@
 }
 
 .video__categories::-webkit-scrollbar {
-  display: none;
+  height: 10px;
 }
 
 .videos > h3 {
@@ -104,4 +104,12 @@
 .videos > h3 > span {
   font-size: 20px;
   color: #4b2199;
+}
+
+@media (min-width: 800px) {
+  .videos__button {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+  }
 }
