@@ -14,6 +14,7 @@ function Header() {
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3qLP-71ZHBQh6oj5QBrZz4sYNUMlDVgdK1Q&usqp=CAU"
           alt=""
         />
+        <p>Browse</p>
         <Crop32Icon title="Browse" className="header__leftBrowseIcon" />
         <MoreVertIcon title="More" className="header__leftMoreIcon" />
       </div>

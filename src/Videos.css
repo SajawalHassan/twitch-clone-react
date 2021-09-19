@@ -107,6 +107,14 @@
 }
 
 @media (min-width: 800px) {
+  .video__categories {
+    justify-content: center;
+  }
+
+  .videos > h3 {
+    margin-left: 70px;
+  }
+
   .videos__button {
     display: flex;
     justify-content: center;
