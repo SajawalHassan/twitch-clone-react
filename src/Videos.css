@@ -98,7 +98,7 @@
 
 .videos > h3 {
   margin-top: 30px;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .videos > h3 > span {
@@ -111,5 +111,13 @@
     display: flex;
     justify-content: center;
     margin: 0 10px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .videos__buttonTop,
+  .videos__buttonBottom {
+    display: flex;
+    justify-content: center;
   }
 }

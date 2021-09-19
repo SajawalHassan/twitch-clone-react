@@ -11,6 +11,7 @@
   border-radius: 10px;
   margin-top: 20px;
   cursor: pointer;
+  position: relative;
 }
 
 .videosButton:hover {
@@ -19,7 +20,9 @@
 }
 
 .videosButton > img {
-  margin-top: -30px;
+  position: absolute;
+  right: 0;
+  top: -25%;
 }
 
 .videosButton > h1 {
@@ -30,5 +33,11 @@
   .videosButton {
     width: 40vw;
     margin: 30px 5px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .videosButton {
+    width: 20vw;
   }
 }
