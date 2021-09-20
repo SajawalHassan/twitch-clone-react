@@ -86,35 +86,30 @@
 }
 
 .video__categories {
-  display: flex;
-  align-items: center;
   margin-left: 20px;
   overflow-x: scroll;
+}
+
+.video__categories > .video__categoriesCard {
+  display: flex;
+  align-items: center;
 }
 
 .video__categories::-webkit-scrollbar {
   height: 10px;
 }
 
-.videos > h3 {
+.video__categories > h3 {
   margin-top: 30px;
-  margin-left: 30px;
+  margin-left: 5px;
 }
 
-.videos > h3 > span {
+.video__categories > h3 > span {
   font-size: 20px;
   color: #4b2199;
 }
 
 @media (min-width: 800px) {
-  .video__categories {
-    justify-content: center;
-  }
-
-  .videos > h3 {
-    margin-left: 70px;
-  }
-
   .videos__button {
     display: flex;
     justify-content: center;
@@ -127,5 +122,11 @@
   .videos__buttonBottom {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .videos {
+    flex: 0.9;
   }
 }

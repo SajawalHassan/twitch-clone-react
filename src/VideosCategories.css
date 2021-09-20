@@ -5,6 +5,7 @@
 .videosCategories > img {
   object-fit: contain;
   height: 140px;
+  cursor: pointer;
 }
 
 .videosCategories > img:hover {

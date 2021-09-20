@@ -145,47 +145,49 @@ function Videos() {
         </div>
       </div>
 
-      <h3>
-        <span>Categories</span> we think you'll like
-      </h3>
       <div className="video__categories">
         {/* *X SCROLLABLE* */}
-        <VideosCategories
-          img="https://static-cdn.jtvnw.net/ttv-boxart/Just%20Chatting-188x250.jpg"
-          title="Just Chatting"
-          viewers="155k viewers"
-          categories="IRL"
-        />
-        <VideosCategories
-          img="https://static-cdn.jtvnw.net/ttv-boxart/Music-188x250.jpg"
-          title="Music"
-          viewers="23.8K viewers"
-          categories="IRL"
-        />
-        <VideosCategories
-          img="https://static-cdn.jtvnw.net/ttv-boxart/Minecraft-188x250.jpg"
-          title="Minecraft"
-          viewers="13.1K viewers"
-          categories="Simulation"
-        />
-        <VideosCategories
-          img="https://static-cdn.jtvnw.net/ttv-boxart/Fortnite-188x250.jpg"
-          title="Fortnite"
-          viewers="32.6K viewers"
-          categories="Shooter"
-        />{" "}
-        <VideosCategories
-          img="https://static-cdn.jtvnw.net/ttv-boxart/League%20of%20Legends-188x250.jpg"
-          title="League of Legends"
-          viewers="32.6K viewers"
-          categories="Shooter"
-        />{" "}
-        <VideosCategories
-          img="https://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty:%20Warzone-188x250.jpg"
-          title="Call of duty"
-          viewers="32.6K viewers"
-          categories="Shooter"
-        />
+        <h3>
+          <span>Categories</span> we think you'll like
+        </h3>
+        <div className="video__categoriesCard">
+          <VideosCategories
+            img="https://static-cdn.jtvnw.net/ttv-boxart/Just%20Chatting-188x250.jpg"
+            title="Just Chatting"
+            viewers="155k viewers"
+            categories="IRL"
+          />
+          <VideosCategories
+            img="https://static-cdn.jtvnw.net/ttv-boxart/Music-188x250.jpg"
+            title="Music"
+            viewers="23.8K viewers"
+            categories="IRL"
+          />
+          <VideosCategories
+            img="https://static-cdn.jtvnw.net/ttv-boxart/Minecraft-188x250.jpg"
+            title="Minecraft"
+            viewers="13.1K viewers"
+            categories="Simulation"
+          />
+          <VideosCategories
+            img="https://static-cdn.jtvnw.net/ttv-boxart/Fortnite-188x250.jpg"
+            title="Fortnite"
+            viewers="32.6K viewers"
+            categories="Shooter"
+          />
+          <VideosCategories
+            img="https://static-cdn.jtvnw.net/ttv-boxart/League%20of%20Legends-188x250.jpg"
+            title="League of Legends"
+            viewers="32.6K viewers"
+            categories="Shooter"
+          />
+          <VideosCategories
+            img="https://static-cdn.jtvnw.net/ttv-boxart/Call%20of%20Duty:%20Warzone-188x250.jpg"
+            title="Call of duty"
+            viewers="32.6K viewers"
+            categories="Shooter"
+          />
+        </div>
       </div>
 
       <div className="videos__card">

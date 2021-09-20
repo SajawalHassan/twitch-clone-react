@@ -4,12 +4,22 @@
   width: max-content;
   height: 92vh;
   padding: 0 10px;
-  text-align: center;
   flex: 0.05;
 }
 
 .sidebar > .MuiSvgIcon-root {
   margin-top: 10px;
+  margin-left: 17px;
   color: gray !important;
   cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .sidebar {
+    flex: 0.1;
+  }
+
+  .sidebar > .MuiSvgIcon-root {
+    margin-left: 2px;
+  }
 }
