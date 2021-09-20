@@ -7,6 +7,20 @@
   flex: 0.05;
 }
 
+.sidebar__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: gray;
+}
+
+.sidebar__topIcon {
+  display: none !important;
+}
+
 .sidebar > .MuiSvgIcon-root {
   margin-top: 10px;
   margin-left: 17px;
@@ -17,6 +31,10 @@
 @media (min-width: 1200px) {
   .sidebar {
     flex: 0.1;
+  }
+
+  .sidebar__topIcon {
+    display: inline !important;
   }
 
   .sidebar > .MuiSvgIcon-root {

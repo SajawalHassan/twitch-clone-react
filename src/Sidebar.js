@@ -3,6 +3,7 @@ import "./Sidebar.css";
 
 import SidebarOptions from "./SidebarOptions";
 import VideocamIcon from "@material-ui/icons/Videocam";
+import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos";
 
 function Sidebar() {
   const sidebarChannelImg =
@@ -10,7 +11,10 @@ function Sidebar() {
 
   return (
     <div className="sidebar">
-      <VideocamIcon />
+      <div className="sidebar__top">
+        <VideocamIcon />
+        <ArrowBackIosIcon className="sidebar__topIcon" />
+      </div>
 
       <SidebarOptions
         img={sidebarChannelImg}
