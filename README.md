@@ -1,8 +1,9 @@
 <div align="center">
     <h1>Twitch clone</h1>
     <p>Made in react.</p>
-    [Twitch clone](https://twitch-clone-1f12.vercel.app/)
+    <a href="https://twitch-clone-1f12.vercel.app/">Demo project</a>
 </div>
+
 
 <details open="open">
   <summary>Table of Contents</summary>
